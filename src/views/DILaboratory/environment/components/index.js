@@ -1,0 +1,8 @@
+export { default as record } from './record'
+export { default as recordList } from './recordList'
+export { default as checkList } from './checkList'
+export { default as machine } from './machine'
+export { default as days } from './days'
+export { default as lineEchart } from './lineEchart'
+export { default as modal } from './modal'
+export { default as warnModal } from './warnModal'

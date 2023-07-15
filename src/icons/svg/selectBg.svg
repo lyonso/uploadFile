@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="74" height="8.991" viewBox="0 0 74 8.991">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: aqua;
+      }
+    </style>
+  </defs>
+  <path id="多边形_562" data-name="多边形 562" class="cls-1" d="M1,9A1,1,0,1,1,1,7H34L38,.009,42,7H73a1,1,0,1,1,0,2Z" transform="translate(0 -0.009)"/>
+</svg>

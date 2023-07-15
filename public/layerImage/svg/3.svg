@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(0,255,168,0.1);
+        stroke: #ff8a00;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: #00ffa8;
+        opacity: 0;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="_3" data-name="3" transform="translate(-269 -112)">
+    <g id="椭圆_2637" data-name="椭圆 2637" class="cls-1" transform="translate(269 112)">
+      <circle class="cls-3" cx="13" cy="13" r="13"/>
+      <circle class="cls-4" cx="13" cy="13" r="12"/>
+    </g>
+    <circle id="椭圆_2637_拷贝" data-name="椭圆 2637 拷贝" class="cls-2" cx="9.75" cy="9.75" r="9.75" transform="translate(272.25 115.25)"/>
+  </g>
+</svg>

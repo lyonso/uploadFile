@@ -1,0 +1,132 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: sreg, Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Arial, sans-serif;
+}
+
+@i: 30;
+.loop(@i) when (@i>0) {
+  .loop((@i - 1));
+  .mr-@{i} {
+    margin-right: (10px * @i);
+  }
+  .ml-@{i} {
+    margin-left: (10px * @i);
+  }
+  .mt-@{i} {
+    margin-top: (10px * @i);
+  }
+  .mb-@{i} {
+    margin-bottom: (10px * @i);
+  }
+
+  .pr-@{i} {
+    padding-right: (10px * @i);
+  }
+  .pl-@{i} {
+    padding-left: (10px * @i);
+  }
+  .pt-@{i} {
+    padding-top: (10px * @i);
+  }
+  .pb-@{i} {
+    padding-bottom: (10px * @i);
+  }
+
+  @a: (@i + 5) * 2;
+  .f@{a} {
+    font-size: (10px + 2 * @i) !important;
+  }
+  @b: (@i - 1) ;
+  .flex-shrink-@{b} {
+    flex-shrink: (@b)
+  }
+  .hideText-@{i} {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    //white-space: nowrap;
+    -webkit-line-clamp: (@i);
+    -webkit-box-orient: vertical;
+    white-space: break-spaces;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  }
+
+  .mw-@{i} {
+    min-width: (5px * @i);
+    max-width: (5px * @i);
+  }
+}
+
+.loop(@i);
+
+.scroll {
+  .el-scrollbar__wrap {
+    overflow-x: hidden;
+  }
+}
+
+.el-input {
+  .el-input__inner {
+    background: transparent;
+    border: 1px solid #175B71;
+    border-radius: 2px;
+    //color: #FFFFFF;
+  }
+}
+
+.sp-table {
+  padding: 10px;
+
+  .empty {
+    background: #153B54;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #dcdcdc;
+  }
+
+  .tbody {
+    cursor: pointer;
+
+    &:hover {
+      opacity: .75;
+    }
+  }
+
+  .thead, .tbody {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    border: 1px solid #306491;
+    background: #153B54;
+
+    &.highlight {
+      background: #1F4561 !important;
+    }
+
+    &.selected {
+      background: #0075AB !important;
+    }
+
+    .th {
+      font-size: 16px;
+      font-weight: 400;
+      color: #9CCDFB;
+      padding-left: 10px;
+    }
+
+    .td {
+      font-size: 16px;
+      font-weight: 400;
+      color: #FFFFFF;
+      padding-left: 10px;
+    }
+  }
+}

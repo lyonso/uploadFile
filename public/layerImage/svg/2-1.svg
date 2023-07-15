@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(0,255,168,0.1);
+        stroke: #ff0;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: #0000d4;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        font-size: 14px;
+        font-family: YuGothicUI-Regular, Yu Gothic UI;
+      }
+    </style>
+  </defs>
+  <g id="_2-1" data-name="2-1" transform="translate(-188 -161)">
+    <circle id="椭圆_2637" data-name="椭圆 2637" class="cls-1" cx="12" cy="12" r="12" transform="translate(189 162)"/>
+    <circle id="椭圆_2637_拷贝" data-name="椭圆 2637 拷贝" class="cls-2" cx="9" cy="9" r="9" transform="translate(192 165)"/>
+    <text id="_" data-name="Ⅰ" class="cls-3" transform="translate(193.858 179.2)"><tspan x="0" y="0">Ⅰ</tspan></text>
+  </g>
+</svg>

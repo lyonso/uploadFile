@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'DS-DIGI';
+    src: url("./DS-DIGI.TTF");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DS-DIGIB';
+    src: url("./DS-DIGIB.TTF");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DS-DIGII';
+    src: url("./DS-DIGII.TTF");
+    font-weight: normal;
+    font-style: normal;
+}@font-face {
+    font-family: 'DS-DIGIT';
+    src: url("./DS-DIGIT.TTF");
+    font-weight: normal;
+    font-style: normal;
+}
